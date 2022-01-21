@@ -3,7 +3,7 @@
 /* font-family: 'Raleway', sans-serif; */
 
 body {
-    font-size: 1rem;
+    font-size: 5vw;
 }
 
 
@@ -21,7 +21,7 @@ header {
 
 .logo {
     font-weight: bolder;
-    font-size: 1.8rem;
+    font-size: 9vw;
 }
 
 nav ul {
@@ -32,7 +32,7 @@ nav ul {
 header li {
     margin-left: 1.25rem;
     border-radius: 8px;
-    font-size: 1.2rem;
+    font-size: 6vw;
 
 }
 
@@ -119,13 +119,13 @@ main .active{
 
 
 h2 {
-    font-size: 2rem;
+    font-size: 8vw;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 7vw;
     font-weight: bold;
     margin: 1rem auto;
 }
@@ -161,7 +161,7 @@ footer {
 
 /* Mobile Responsive */
 .checkbtn{
-    font-size: 1.8rem;
+    font-size: 8vw;
     float: right;
     /* line-height: 5rem; */
     margin-right: 28px;
@@ -174,9 +174,9 @@ footer {
 
 
 @media (max-width: 858px){
-    body{
+    /* body{
         font-size: 0.5rem;
-    }
+    } */
     .checkbtn{
         display: block;
 
@@ -240,7 +240,7 @@ footer {
         
     }
     .nav-2 a{
-        font-size: 0.8rem;
+        font-size: 0.6vw;
     }
     .main-content{
         padding: 0px 2rem;
