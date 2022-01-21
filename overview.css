@@ -13,3 +13,51 @@
     width: 23rem;
 }
 
+
+/* Responsive design */
+@media (max-width: 858px){
+    
+
+.float-content {
+    float: left;
+    width: 14rem;
+  
+}
+
+.list-answers li {
+    font-size: 0.6rem;
+}
+
+#p-img{
+    width: 12rem;
+    margin-top: 2rem;
+}
+
+h3{
+    font-size: 00.6rem;
+}
+
+
+}
+
+
+@media (max-width: 650px){
+    .main-content{
+    padding: 0px 1rem;
+}
+#p-img{
+    width: 8rem;
+    margin-top: 2rem;
+}
+.float-content {
+    float: left;
+    width: 10rem;
+}  
+.list-answers li {
+    font-size: 0.4rem;
+    line-height: 2;
+}
+
+
+
+}
