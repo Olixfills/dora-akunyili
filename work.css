@@ -27,3 +27,36 @@ p img{
     line-height: 2;
     list-style-type: square;
 }
+
+
+/* Responsive design */
+
+@media (max-width: 858px){
+    #work-img-1{
+        float: left;
+        margin: 0px 8px 0px 0px;
+        width: 10rem;
+    }
+
+    .float-img{
+        width: 10rem;
+        margin: 2rem auto;
+    }
+    
+}
+
+@media (max-width: 650px){
+
+}
+
+@media (max-width: 450px){
+    .float-img{
+        width: 8rem;
+        margin: 2rem auto;
+    }
+    
+    .main-cont{
+        padding: 0px 2rem 0px 1rem;
+    }
+
+}
