@@ -1,0 +1,29 @@
+p img{
+    width: 15rem;
+}
+
+#work-img-1{
+    float: left;
+    margin: 0px 8px 0px 0px;
+}
+#work-img-2{
+    float: right;
+}
+
+.float-img{
+    width: 15rem;
+    margin: 2rem auto;
+}
+
+
+.main-cont{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.25rem 1.25rem;
+
+}
+
+#award-list{
+    line-height: 2;
+    list-style-type: square;
+}

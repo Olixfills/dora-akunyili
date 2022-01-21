@@ -1,0 +1,159 @@
+body {
+    font-size: 1rem;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9375rem 3.75rem;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #313030;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-left: 1.25rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+
+}
+
+nav a {
+    padding: 8px 16px;
+}
+
+nav a:hover {
+    background-color: rgb(46, 44, 44);
+    color: rgb(255, 255, 255);
+
+}
+
+li a {
+    border-radius: 8px;
+
+}
+
+main {
+    padding-bottom: 2rem;
+}
+
+main {
+    margin: 0 3.75rem;
+
+}
+
+.carousel {
+    width: 100%;
+    height: 40rem;
+    margin-bottom: 0.5rem;
+    background-image: url(https://www.qed.ng/wp-content/uploads/2018/06/Dora-Akunyili.jpg);
+    background-position: center;
+    background-size: cover;
+    /* object-fit: cover; */
+    animation:slider 12s infinite linear;
+    
+
+}
+
+@keyframes slider {
+    0% {
+        background-image: url(https://www.qed.ng/wp-content/uploads/2018/06/Dora-Akunyili.jpg);
+    }
+
+    35% {
+        background-image: url(https://www.icirnigeria.org/icirup/2018/03/FLASHBACK-How-late-Dora-Akunyili%E2%80%99s-%E2%80%98gele%E2%80%99-saved-her-from-assassins-bullets.jpg);
+    }
+
+    75% {
+        background-image: url(https://pbs.twimg.com/media/FBxS5eWXsAAKR32?format=jpg&name=large);
+    }
+}
+
+.nav-2{
+    padding: 0.9375rem 3.75rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(46, 44, 44);
+	position: sticky;
+	top: 0;
+    background-color: white;
+}
+.active{
+    font-weight: bolder;
+}
+main .active{
+    border-bottom: 3px solid rgb(46, 44, 44);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.active a:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
+.main-content{
+    padding: 0px 10rem;
+}
+
+.home-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.details {
+    /* margin-left: 3rem; */
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 1rem auto;
+}
+
+/* li {
+    font-size: 1.1rem;
+} */
+
+strong {
+    font-weight: bold;
+    margin-right: 1rem;
+
+}
+
+.list-answers {
+    display: flex;
+}
+
+p{
+    text-align: justify;
+    line-height: 2;
+}
+
+
+footer {
+    height: 5rem;
+    background-color: #2e2c2c;
+}
