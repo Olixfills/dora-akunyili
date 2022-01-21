@@ -8,13 +8,14 @@ h2{
 }
 
 ul{
-    line-height: 2;
+    line-height: 3;
     margin: auto 2rem;
 }
 
 main li a{
     /* list-style: square; */
     color: rgb(16, 54, 50);
+    font-size: 1.5rem;
     
 }
 

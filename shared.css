@@ -203,7 +203,7 @@ footer {
         height: 100vh;
         background-color: rgb(46, 44, 44);
         top: 3rem;
-        left: -100%;
+        left: -150%;
         text-align: center;
         display: block;
         transition: all .5s;
@@ -215,7 +215,7 @@ footer {
     }
     #check:checked ~ul{
         left: 0px;
-        /* z-index: 1; */
+        
     }
 
     .nav-2{

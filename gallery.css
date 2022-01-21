@@ -1,16 +1,50 @@
 main{
     width: 80%;
     margin: auto;
+    text-align: center;
 }
 
 img{
     width: 30%;
+    height: 18rem;
     object-fit: cover;
     border-radius: 8px;
+    margin: 15px 10px;
 }
 
-.image-gallery{
-    display: flex;
-    justify-content: space-between;
-    margin: 5rem auto;
+@media (max-width: 858px){
+
+
+    img{
+        width: 45%;
+        height: 20rem;
+    }
+
+}
+
+
+@media (max-width: 650px){
+    img{
+        width: 40%;
+        height: 15rem;
+    }
+
+}
+
+
+@media (max-width: 450px){
+
+    img{
+        width: 60%;
+        height: 20rem;
+    }
+
+}
+
+@media (max-width: 450px){
+    img{
+        width: 80%;
+        height: 20rem;
+    }
+
 }
