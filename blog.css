@@ -1,0 +1,77 @@
+
+
+.hero-blog {
+    background-image: url(https://guardian.ng/wp-content/uploads/2018/08/Dora-Akunyili.-Photo-The-Trent-e1534284199818.jpg);
+    background-color: black;
+    margin: 0px auto;
+    width: 100%;
+    height: 40rem;
+    background-size: cover;
+    margin-bottom: 1.5rem;
+
+}
+.hero-content{
+    position: absolute;
+    bottom: 0.2rem;
+    left: 8rem;
+    background-color: rgba(46, 44, 44, 0.5);
+}
+.hero-content h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+
+
+
+}
+.hero-content p{
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+.main-blog-content{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 1.25rem 1.25rem;
+    margin-top: 3rem;
+
+
+}
+
+.main-blog-content img{
+    width: 5rem;
+    /* height: 100%; */
+    margin-right: 1rem;
+    border-radius: 8px;
+}
+
+.blog-post-group{
+    /* border-right: 1px solid rgb(46, 44, 44); */
+    grid-column: 1 / 2;
+
+}
+.blog-post{
+    display: flex;
+    /* border: 1px solid rgb(46, 44, 44); */
+    border-radius: 8px;
+    margin: 2rem auto;
+    /* background-color:whitesmoke; */
+}
+
+.blog-post:hover{
+    box-shadow: 0px 0px 29px -1px rgba(0,0,0,0.37);
+-webkit-box-shadow: 0px 0px 29px -1px rgba(0,0,0,0.37);
+-moz-box-shadow: 0px 0px 29px -1px rgba(0,0,0,0.37);
+
+}
+
+.recent-blog-post{
+    margin: 2rem auto 2rem 4rem;
+    padding: 0px auto;
+    text-align: center;
+}
+.recent-blog-post img{
+    width: 4rem;
+}

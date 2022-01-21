@@ -1,0 +1,25 @@
+/* body{
+    text-align: center;
+} */
+
+
+h2{
+    margin: 2rem;
+}
+
+ul{
+    line-height: 2;
+    margin: auto 2rem;
+}
+
+main li a{
+    /* list-style: square; */
+    color: rgb(16, 54, 50);
+    
+}
+
+main li a:hover{
+border-bottom: 3px solid rgb(46, 44, 44);
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}

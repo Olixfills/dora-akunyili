@@ -64,18 +64,18 @@ main {
     background-position: center;
     background-size: cover;
     /* object-fit: cover; */
-    animation:slider 12s infinite linear;
+    animation:slider 15s infinite ease;
     
 
 }
 
 @keyframes slider {
     0% {
-        background-image: url(https://www.qed.ng/wp-content/uploads/2018/06/Dora-Akunyili.jpg);
+        background-image: url(https://www.icirnigeria.org/icirup/2018/03/FLASHBACK-How-late-Dora-Akunyili%E2%80%99s-%E2%80%98gele%E2%80%99-saved-her-from-assassins-bullets.jpg);
     }
 
     35% {
-        background-image: url(https://www.icirnigeria.org/icirup/2018/03/FLASHBACK-How-late-Dora-Akunyili%E2%80%99s-%E2%80%98gele%E2%80%99-saved-her-from-assassins-bullets.jpg);
+        background-image: url(https://www.qed.ng/wp-content/uploads/2018/06/Dora-Akunyili.jpg);
     }
 
     75% {
