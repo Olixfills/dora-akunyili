@@ -13,11 +13,18 @@ img{
 }
 
 @media (max-width: 858px){
-
+    header{
+        position: static;
+        margin-bottom: 0rem;
+    }
 
     img{
         width: 45%;
         height: 20rem;
+    }
+    .nav-2{
+        position: sticky;
+        background-color: #d9ccc5;
     }
 
 }

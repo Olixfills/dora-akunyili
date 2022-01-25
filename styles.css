@@ -1,6 +1,7 @@
 
-.hero {
-    background-image: url(https://www.qed.ng/wp-content/uploads/2018/06/Dora-Akunyili.jpg);
+
+
+/* .hero {
     margin: 0px auto;
     width: 100%;
     height: 40rem;
@@ -27,8 +28,10 @@
     font-size: 1.2rem;
     color: white;
 
-}
+} */
 
+
+/* 
 .details {
     display: flex;
     justify-content: space-between;
@@ -41,7 +44,7 @@ table{
 }
 th{
     padding-right: 0.5rem;
-}
+} */
 
 
 /* .navig{
@@ -49,7 +52,7 @@ th{
     border-left: 1px solid rgb(46, 44, 44);
     padding-left: 1rem;
 } */
-.navig a{
+/* .navig a{
     border-radius: 0px;
     color: rgb(16, 54, 50);
 
@@ -61,56 +64,76 @@ th{
 
 h3{
     margin-top: 0px;
+} */
+
+header{
+    padding-bottom: 0px;
+    justify-content: right;
+
 }
+
+
+main{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero{
+    padding-top: 8rem;
+    margin-left: 6rem;
+
+}
+
+h1{
+    color: #f9f9f9;
+    font-size: 8rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+
+}
+h3{
+    color: #302827;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0px;
+
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+#main-img{
+    position: absolute;
+    right: 0;
+    bottom: 0rem;
+    width: auto;
+    height: 80vh;
+    z-index: -1;
+}
+
+
+
+
 
 /* Mobile responsiveness */
 
 @media (max-width: 858px){
-.hero{
-    margin-top: 3.8rem;
-    width: 90%;
-    height: 50vh;
-}
+    .hero{
+        padding-top: 18rem;
+        margin-left: 6rem;
+        width: 60%;
+    }
+    
+    h3{
+        background-color: rgba(249, 249, 249, 0.4);
+        padding-bottom: 0.2rem;
+        
+    }
+    p{
+        font-size: 0.7rem;
+    }
 
-.hero-content{
-    padding-top: 40vh;
-    position: static;
-    /* bottom: 0.2rem;
-    left: 8rem; */
-
-    background-color: rgba(46, 44, 44, 0);
-}
-.hero-content h1{
-    font-size: 0.8rem;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: white;
-    background-color: rgba(46, 44, 44, 0.5);
-}
-.hero-content p{
-    font-size: 0.5rem;
-    color: white;
-    background-color: rgba(46, 44, 44, 0.5);
-
-}
-
-/* .home-details {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.25rem 1.25rem;
-
-
-}
-.details{
-    grid-column: 1 / 2; 
-
-
-} */
-
-/* .navig{
-    grid-column: 1 / 2;
-
-} */
 
 
 
@@ -118,31 +141,54 @@ h3{
 
 @media (max-width: 650px){
     .hero{
-        width: 100%;
-        height: 50vh;
+        padding-top: 22rem;
+        margin-left: 2rem;
     }
-    h2{
-        font-size: 0.7rem;
+    h1{
+        font-size: 6rem;
+ 
     }
     h3{
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
+    p{
+        font-size: 1rem;
+        background-color: rgba(249, 249, 249, 0.4);
 
-.navig{
-    line-height: 3;
-}
+    }
+    #main-img{
+        width: auto;
+        height: 60vh;
+    }
+    
 
 }
 
 @media (max-width: 450px){
     .hero{
+        padding-top: 5rem;
+        margin-left: 0rem;
+        text-align: center;
         width: 100%;
-        height: 30vh;
+    }
+    h1{
+        font-size: 5rem;
+ 
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    #main-img{
+        width: auto;
+        height: 50vh;
     }
 
-    .hero-content{
-    padding-top: 20vh;
-    }
+
+
 
 
 }

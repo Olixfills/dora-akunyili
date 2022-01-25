@@ -5,22 +5,24 @@
 
 h2{
     margin: 2rem;
+    text-align: center;
 }
 
 ul{
     line-height: 3;
     margin: auto 2rem;
+    text-align: center;
 }
 
 main li a{
     /* list-style: square; */
     color: rgb(16, 54, 50);
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     
 }
 
-main li a:hover{
+/* main li a:hover{
 border-bottom: 3px solid rgb(46, 44, 44);
 border-bottom-left-radius: 0px;
 border-bottom-right-radius: 0px;
-}
+} */

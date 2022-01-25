@@ -5,6 +5,8 @@
 body {
     font-size: 1rem;
     font-family: 'Nunito', sans-serif;
+    background-color: #d9ccc5;
+
 }
 
 
@@ -17,7 +19,8 @@ header {
     top: 0;
     left: 0;
     box-sizing: border-box;
-    border-bottom: 1px solid #313030;
+    /* background-color: #d9ccc5; */
+    /* border-bottom: 1px solid #313030; */
 }
 
 .logo {
@@ -33,7 +36,7 @@ nav ul {
 header li {
     margin-left: 1.25rem;
     border-radius: 8px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
 }
 
@@ -42,8 +45,8 @@ header a {
 }
 
 nav a:hover {
-    background-color: rgb(46, 44, 44);
-    color: rgb(255, 255, 255);
+    background-color: #302827;
+    color: #f9f9f9;
     transition: .5s;
 
 }
@@ -51,27 +54,29 @@ nav a:hover {
 li a {
     border-radius: 8px;
     padding: 8px 16px;
-
-}
+    color: #302827;
+    font-family: 'Nunito', sans-serif;}
 
 h1, h2, h3, h4, .logo a{
     font-family: 'Raleway', sans-serif;
+    color: #302827;
+
 }
 
 
 main {
     padding-bottom: 2rem;
-}
-
-main {
+    color: #302827;
     margin: 0 3.75rem;
 
 }
+
 
 .carousel {
     width: 100%;
     height: 40rem;
     margin-bottom: 0.5rem;
+    /* margin-top: 2rem; */
     background-image: url(https://www.qed.ng/wp-content/uploads/2018/06/Dora-Akunyili.jpg);
     background-position: center;
     background-size: cover;
@@ -97,22 +102,26 @@ main {
 
 
 .nav-2{
-    padding: 0.9375rem 3.75rem;
+    padding: 0rem 3.75rem;
+    padding-top: 1rem;
     align-items: center;
+    margin: 0px -3rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid rgb(46, 44, 44);
 	position: sticky;
 	top: 0;
-    background-color: white;
+    background-color: #d9ccc5;
 }
 .active{
-    font-weight: bolder;
+    font-weight: 600;
     
 }
 main .active{
     border-bottom: 3px solid rgb(46, 44, 44);
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    padding-bottom: 1rem;
+    margin-bottom: 0px;
 }
 .active a:hover{
     background-color: rgba(255, 255, 255, 0);
@@ -194,7 +203,7 @@ footer {
     header{
         position: fixed;
         margin-bottom: 3rem;
-        background-color: white;
+        background-color: #d9ccc5;
     }
 
     header ul{
@@ -220,7 +229,7 @@ footer {
 
     .nav-2{
         background-color: rgba(255, 255, 255, 0);
-        padding: 0.9375rem 1rem;
+        padding: 0rem 5rem;
         /* height: 1.9rem; */
         width: 90%;
         position: static;
@@ -251,7 +260,7 @@ footer {
 
     .nav-2{
         background-color: rgba(255, 255, 255, 0);
-        padding: 0.9375rem 1rem;
+        padding: 0rem 4rem;
         
         width: 90%;
         
@@ -274,7 +283,7 @@ footer {
 
     .nav-2{
         background-color: rgba(255, 255, 255, 0);
-        padding: 0.9375rem 1rem;
+        padding: 0rem 3.2rem;
         
         width: 90%;
         
@@ -284,9 +293,17 @@ footer {
 }
 
 
+@media (max-width: 450px){
+    .nav-2 a{
+        font-size: 0.6rem;
+    }
+    
+
+}
+
 @media (max-width: 400px){
 
 .nav-2 a{
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
 }
