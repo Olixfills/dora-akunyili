@@ -148,6 +148,11 @@ main{
     .main-blog-content{
         display: block;
     }
+    .hero-blog {
+        width: 100%;
+        height: 30vh;
+    }
+
     .recent-news{
         display: none;
         
