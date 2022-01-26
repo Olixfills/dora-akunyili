@@ -76,5 +76,14 @@ main{
           
         }
      
+        @media (max-width: 400px){
 
+            .info-card img{
+                width: 8rem;
+                height: auto;
+                
+            }
+            
+
+        }
 }
