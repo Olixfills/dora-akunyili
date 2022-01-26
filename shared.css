@@ -55,11 +55,15 @@ li a {
     border-radius: 8px;
     padding: 8px 16px;
     color: #302827;
-    font-family: 'Nunito', sans-serif;}
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 400;}
+    
 
 h1, h2, h3, h4, .logo a{
     font-family: 'Raleway', sans-serif;
     color: #302827;
+    font-weight: 700;
 
 }
 
@@ -113,7 +117,7 @@ main {
     background-color: #d9ccc5;
 }
 .active{
-    font-weight: 600;
+    font-weight: 700;
     
 }
 main .active{
@@ -165,11 +169,19 @@ p{
 }
 
 
-footer {
-    height: 5rem;
-    background-color: #2e2c2c;
-    margin-bottom: 0px;
-
+footer{
+    /* position: absolute; */
+    /* bottom: 0px;
+    right: 0px;
+    width: 100%; */
+    background-color: #302827;
+}
+footer p{
+    text-align: center;
+    padding: 1rem 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #f9f9f9;
 }
 
 
