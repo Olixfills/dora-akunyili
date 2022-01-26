@@ -21,8 +21,15 @@ main li a{
     
 }
 
-/* main li a:hover{
-border-bottom: 3px solid rgb(46, 44, 44);
-border-bottom-left-radius: 0px;
-border-bottom-right-radius: 0px;
-} */
+@media (max-width: 858px){
+
+    header ul{
+        left: -150%;
+
+    }
+    #check:checked ~ul{
+        left: -8.5%;
+        
+    }
+
+}

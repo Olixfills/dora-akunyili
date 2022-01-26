@@ -212,10 +212,11 @@ footer {
         height: 100vh;
         background-color: rgb(46, 44, 44);
         top: 3rem;
-        left: -150%;
+        left: -100%;
         text-align: center;
         display: block;
         transition: all .5s;
+        z-index: 2;
 
     }
     header nav a{
@@ -261,7 +262,7 @@ footer {
     .nav-2{
         background-color: rgba(255, 255, 255, 0);
         padding: 0rem 4rem;
-        
+        padding-top: 5px;
         width: 90%;
         
     }
