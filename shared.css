@@ -57,7 +57,8 @@ li a {
     color: #302827;
     font-family: 'Nunito', sans-serif;
 
-    font-weight: 400;}
+    /* font-weight: 400; */
+}
     
 
 h1, h2, h3, h4, .logo a{
@@ -117,7 +118,8 @@ main {
     background-color: #d9ccc5;
 }
 .active{
-    font-weight: 700;
+    
+    font-weight: 600;
     
 }
 main .active{
@@ -126,10 +128,12 @@ main .active{
     border-bottom-right-radius: 0px;
     padding-bottom: 1rem;
     margin-bottom: 0px;
+    font-weight: 700;
+
 }
 .active a:hover{
     background-color: rgba(255, 255, 255, 0);
-    color: black;
+    color: #302827;
 }
 
 .main-content{
