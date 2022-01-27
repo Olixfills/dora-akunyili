@@ -2,6 +2,8 @@ p img{
     width: 15rem;
 }
 
+
+/* float content(images) left and right */
 #work-img-1{
     float: left;
     margin: 0px 8px 0px 0px;

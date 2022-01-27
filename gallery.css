@@ -30,6 +30,7 @@ img{
 }
 
 
+/* Mobile Responsiveness */
 @media (max-width: 650px){
     img{
         width: 43%;

@@ -20,9 +20,12 @@ main li a{
     /* font-size: 1.5rem; */
     
 }
-
+.nav-2{
+    margin-top: 0;
+}
 @media (max-width: 858px){
 
+    /* nav was not showing completely on this page so had to move the nav origin position to -150% */
     header ul{
         left: -150%;
 
