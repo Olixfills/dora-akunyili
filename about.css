@@ -1,9 +1,8 @@
-
-main{
+main {
     padding: 1rem 2rem;
 }
 
-.info-card{
+.info-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,78 +11,86 @@ main{
     margin: 3rem 1rem;
     border-radius: 12px;
     padding: 8px;
-    
+
 }
 
-.info-card img{
+.info-card img {
     width: 10rem;
     height: auto;
-    
+
 }
 
-.info-card p{
+.info-card p {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     padding: 0 5rem;
     text-align: justify;
 }
 
-.one{
+.one {
     padding-right: 1rem;
 }
-.two{
+
+.two {
     padding-left: 1rem;
-  
+
 }
 
 /* Mobile Responsiveness */
 
-@media (max-width: 858px){
-    p{
+@media (max-width: 858px) {
+    p {
         font-size: 1rem;
     }
-    p.one{
+
+    p.one {
         padding-right: 0.5rem;
     }
-    p.two{
-        padding-left: 0.5rem;
-      
-    }
-    
 
-    @media (max-width: 600px){
-        p{
-            font-size: 0.8rem;
-        }
-    
+    p.two {
+        padding-left: 0.5rem;
+
     }
-    @media (max-width: 550px){
-       main{
+}
+
+
+@media (max-width: 600px) {
+    p {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 550px) {
+    main {
         padding: 1rem 0.2rem;
 
-       }
-    
     }
-    @media (max-width: 450px){
-        p{
-            font-size: 0.6rem;
-        }
-        p.one{
-            padding-left: 0.5rem;
-        }
-        p.two{
-            padding-right: 0.5rem;
-          
-        }
-     
-        @media (max-width: 400px){
 
-            .info-card img{
-                width: 8rem;
-                height: auto;
-                
-            }
-            
+}
+
+@media (max-width: 450px) {
+    p {
+        font-size: 0.6rem;
+    }
+
+    p.one {
+        padding-left: 0.5rem;
+    }
+
+    p.two {
+        padding-right: 0.5rem;
+
+    }
+
+    @media (max-width: 400px) {
+
+        .info-card img {
+            width: 8rem;
+            height: auto;
 
         }
+
+
+    }
 }

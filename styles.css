@@ -2,7 +2,7 @@
 
 
 header{
-    padding-bottom: 0px;
+    padding-top: 2rem;
     justify-content: right;
 
 }
@@ -18,6 +18,7 @@ main{
     margin-left: 6rem;
 
 }
+
 
 h1{
     color: #f9f9f9;
@@ -45,8 +46,9 @@ p{
     right: 0;
     bottom: 0rem;
     width: auto;
-    height: 80vh;
+    height: 70vh;
     z-index: -1;
+    
 }
 
 
@@ -60,10 +62,10 @@ p{
         margin-left: 6rem;
         width: 60%;
     }
-    
+   
     h3{
         background-color: rgba(249, 249, 249, 0.4);
-        padding-bottom: 0.2rem;
+        padding: 0.3rem 0px;
         
     }
     p{

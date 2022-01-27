@@ -112,7 +112,7 @@ main {
     align-items: center;
     margin: 0px -3rem;
     margin-bottom: 1rem;
-    border-bottom: 1px solid rgb(46, 44, 44);
+    border-bottom: 1px solid rgba(46, 44, 44, 0.137);
 	position: sticky;
 	top: 0;
     background-color: #d9ccc5;
@@ -120,6 +120,7 @@ main {
 .active{
     
     font-weight: 600;
+
     
 }
 main .active{
@@ -131,10 +132,16 @@ main .active{
     font-weight: 700;
 
 }
-.active a:hover{
-    background-color: rgba(255, 255, 255, 0);
-    color: #302827;
+.active a{
+    padding: 8px 16px;
+    background-color: #30282796;
+    color: #f9f9f9;
 }
+
+/* .active a:hover{
+    background-color: rgba(255, 255, 255, 0); 
+    color: #302827;
+} */
 
 .main-content{
     padding: 0px 10rem;
@@ -199,7 +206,7 @@ footer p{
     cursor: pointer;
     display: none;
 }
-#check{
+#check{ 
     display: none;
 }
 

@@ -4,9 +4,13 @@
     width: 25rem;
   
 }
+.details{
+    padding-bottom: 1.5rem;
+}
 
 .list-answers li {
     font-size: 0.8rem;
+    line-height: 1.5;
 }
 
 #p-img{
