@@ -8,8 +8,7 @@ main {
 
 
 img {
-    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    /* padding-right: 1.5rem; */
+    border-radius: 50%;
     width: 60%;
 }
 

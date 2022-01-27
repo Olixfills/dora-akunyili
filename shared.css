@@ -241,6 +241,7 @@ footer p{
         display: block;
         transition: all .5s;
         z-index: 2;
+        /* margin-top: 10px; */
 
     }
     header nav a{
