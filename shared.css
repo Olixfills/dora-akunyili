@@ -129,16 +129,18 @@ main .active{
     font-weight: 700;
 
 }
-.active a{
+header .active a{
     padding: 8px 16px;
-    background-color: #30282796;
+    background-color: #302827ea;
     color: #f9f9f9;
 }
 
-/* .active a:hover{
+
+
+.nav-2 .active a:hover{
     background-color: rgba(255, 255, 255, 0); 
     color: #302827;
-} */
+}
 
 .main-content{
     padding: 0px 10rem;
