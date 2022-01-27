@@ -33,3 +33,18 @@ main li a{
     }
 
 }
+
+@media (max-width: 558px){
+
+.nav-2{
+    padding: 0rem 3.75rem;
+    padding-top: 1rem;
+    align-items: center;
+    margin: 0px -5.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(46, 44, 44, 0.137);
+	position: sticky;
+	top: 0;
+    background-color: #d9ccc5;
+}
+}

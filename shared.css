@@ -108,9 +108,9 @@ main {
 
 .nav-2{
     padding: 0rem 3.75rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
     align-items: center;
-    margin: 0px -3rem;
+    margin: 15px -3rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid rgba(46, 44, 44, 0.137);
 	position: sticky;
