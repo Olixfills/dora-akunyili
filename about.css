@@ -4,15 +4,13 @@ main {
 
 .about-hero {
     display: flex;
-
-
 }
 
 
 img {
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    padding-right: 1.5rem;
-    width: 90%;
+    /* padding-right: 1.5rem; */
+    width: 60%;
 }
 
 .social-media {
@@ -27,7 +25,9 @@ img {
     padding-top: 0.5rem;
     font-size: 2rem;
 }
-
+.left-side{
+    margin-top: 3rem;
+}
 .right-side {
     margin-top: 3rem;
 
@@ -56,10 +56,26 @@ img {
     width: 20px;
     height: 20px;
 }
-
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 
 
 /* Mobile Responsiveness */
+@media (max-width: 1050px) {
+
+    footer{
+        position: static;
+        margin-top: 10px;
+        width: 100%;
+    }
+   
+    
+
+}
 
 @media (max-width: 858px) {
     main {
@@ -77,9 +93,34 @@ img {
     .left-side {
         margin-top: 8rem;
     }
+    footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .social-media {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-left: 2rem;
+        /* align-items: center; */
+    }
+    p i{
+        font-size: 0.8rem;
+    }
 
 
+}
 
+@media (max-width: 710px) {
+
+
+footer{
+    position: static;
+    margin-top: 10px;
+    width: 100%;
+}
 }
 
 
@@ -89,6 +130,13 @@ img {
 
 
     }
+    footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
 
 }
 
@@ -105,7 +153,7 @@ img {
     }
 
     .social-media {
-        padding-left: 0rem;
+        padding-left: 2rem;
         padding-right: 0rem;
     }
 
@@ -113,8 +161,17 @@ img {
         padding-top: 0.1rem;
         font-size: 0.8rem;
     }
+    footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
 
-
+    footer{
+        position: static;
+        width: 100%;
+    }
 
 }
 
@@ -127,6 +184,7 @@ img {
         display: flex;
         justify-content: space-around;
         flex-direction: row;
+        margin-top: 10px;
         /* padding-left: 5rem; */
         /* align-items: center; */
     }
@@ -140,6 +198,7 @@ img {
         width: 80%;
     }
 
+   
 
 
 }
@@ -158,10 +217,19 @@ img {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        margin-top: 0px;
-        padding-left: 7rem;
+        margin-top: 5px;
+        padding-left: 8rem;
         
     }
 
+  
 
+}
+
+@media (max-width: 400px) {
+
+.social-media {
+    padding-left: 5rem;
+    
+}
 }
