@@ -8,18 +8,10 @@ main {
 
 }
 
-.image {
-    display: block;
-    width: 25rem;
-    height: 23rem;
-    /* background-color: #302827ea; */
-    /* border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; */
-    /* transform: rotate(160deg); */
-    object-fit: cover;
-}
 
 img {
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    padding-right: 1.5rem;
 }
 
 .social-media {
@@ -48,6 +40,21 @@ img {
     margin-bottom: 1rem;
 }
 
+.icon {
+    display: inline;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    padding: 0.5rem;
+    text-align: center;
+    float: left;
+    margin-right: 0.5rem;
+
+}
+
+.icon i {
+    width: 20px;
+    height: 20px;
+}
 
 
 
@@ -56,6 +63,10 @@ img {
 @media (max-width: 858px) {
     main {
         margin-top: 3rem;
+    }
+
+    i {
+        font-size: 1rem;
     }
 
     p {
@@ -87,7 +98,7 @@ img {
 
     }
 
-    .left-side{
+    .left-side {
         display: flex;
         align-items: center;
     }
@@ -96,35 +107,37 @@ img {
         padding-left: 0rem;
         padding-right: 0rem;
     }
+
     .social-media i {
         padding-top: 0.1rem;
         font-size: 0.8rem;
     }
-    
+
 
 
 }
 
 @media (max-width: 600px) {
-    .left-side{
+    .left-side {
         display: block;
     }
 
-.social-media {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    /* padding-left: 5rem; */
-    /* align-items: center; */
-}
+    .social-media {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        /* padding-left: 5rem; */
+        /* align-items: center; */
+    }
 
-.image {
-    width: 100%;
+    .image {
+        width: 100%;
 
-}
-img{
-    width: 80%;
-}
+    }
+
+    img {
+        width: 80%;
+    }
 
 
 
@@ -132,22 +145,22 @@ img{
 
 @media (max-width: 450px) {
 
-    img{
-        width: 100%;   
-}
-.left-side {
-    margin-top: 5rem;
-}
+    img {
+        width: 100%;
+    }
 
-.social-media {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    margin-top: 0px;
-    /* padding-left: 5rem; */
-    align-items: center;
-}
+    .left-side {
+        margin-top: 5rem;
+    }
 
+    .social-media {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 0px;
+        padding-left: 7rem;
+        
+    }
 
 
 }
